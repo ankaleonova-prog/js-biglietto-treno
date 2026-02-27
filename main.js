@@ -1,3 +1,4 @@
+document.getElementById('generate').addEventListener('click', function() {
 //il biglieto treno//
 //recupero dati da input//
 const km = parseFloat(document.getElementById('km').value)
@@ -17,3 +18,4 @@ if (age === 'minorenne') {
 document.getElementById('ticket-km').innerText = km;
 document.getElementById('ticket-price').innerText = price.toFixed(2);
 document.getElementById('ticket').classList.remove('hidden'); 
+});
