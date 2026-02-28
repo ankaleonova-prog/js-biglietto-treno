@@ -13,3 +13,7 @@ console.log (age)
     } else if (age > 65) {
         price *= 0.6; // sale 40%
     }
+console.log("price ticket");
+
+
+
