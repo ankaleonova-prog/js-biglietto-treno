@@ -13,7 +13,13 @@ console.log (age)
     } else if (age > 65) {
         price *= 0.6; // sale 40%
     }
-console.log("price ticket");
+console.log(price + "tiket")
 
 
 
+
+
+for (let i = 1; i <= 20 i++){
+
+    console.log (i)
+}
